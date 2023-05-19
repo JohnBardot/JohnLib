@@ -17,12 +17,19 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnB
 local Window = Library:CreateWindow("Title")
 
 ```
+#### Creating Tab Sections
+
+```lua
+
+local TabSection = Window:CreateTabSection("Tab Section Text")
+
+```
 
 #### Creating Tabs
 
 ```lua
 
-local Tab = Window:CreateTab("Tab Text")
+local Tab = TabSection:CreateTab("Tab Text")
 
 ```
 #### Creating Sections
