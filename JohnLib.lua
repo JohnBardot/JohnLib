@@ -295,7 +295,7 @@ Title_3.BorderColor3 = Color3.fromRGB(27,42,53)
 Title_3.Size = UDim2.new(1, 0,1, 0)
 Title_3.Font = Enum.Font.Ubuntu
 Title_3.Text = SecName
-Title_3.TextColor3 = Color3.fromRGB(0,0,0)
+Title_3.TextColor3 = Color3.fromRGB(255,0,4)
 Title_3.TextSize = 14
 Title_3.TextXAlignment = Enum.TextXAlignment.Left
 
