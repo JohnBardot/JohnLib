@@ -173,6 +173,9 @@ UIPadding_2.Parent = ButtonHolder_1
 UIPadding_2.PaddingBottom = UDim.new(0,8)
 UIPadding_2.PaddingTop = UDim.new(0,8)
 
+UIPadding_2.PaddingLeft = UDim.new(0,4) 
+UIPadding_2.PaddingRight = UDim.new(0,4) 
+
 UIListLayout_1.Parent = ButtonHolder_1
 UIListLayout_1.Padding = UDim.new(0,1)
 UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
