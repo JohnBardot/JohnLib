@@ -490,7 +490,7 @@
  CheckmarkHolder_1.Name = "CheckmarkHolder" 
  CheckmarkHolder_1.Parent = ToggleInactive_1 
  CheckmarkHolder_1.AnchorPoint = Vector2.new(1, 0.5) 
- CheckmarkHolder_1.BackgroundColor3 = Color3.fromRGB(75,75,75) 
+ CheckmarkHolder_1.BackgroundColor3 = Color3.fromRGB(100,100,100) 
  CheckmarkHolder_1.BorderColor3 = Color3.fromRGB(0,0,0) 
  CheckmarkHolder_1.Position = UDim2.new(1, -3,0.5, 0) 
  CheckmarkHolder_1.Size = UDim2.new(0, 16,0, 16) 
