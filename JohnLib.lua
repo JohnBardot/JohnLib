@@ -513,7 +513,7 @@
  Checkmark_1.Font = Enum.Font.Ubuntu 
  Checkmark_1.Position = UDim2.new(0, 1, 0, -1) 
  Checkmark_1.Text = " " 
- Checkmark_1.TextColor3 = Color3.fromRGB(0,0,0) 
+ Checkmark_1.TextColor3 = Color3.fromRGB(83,166,0) 
  Checkmark_1.TextSize = 30 
  Checkmark_1.TextXAlignment = Enum.TextXAlignment.Center 
   
