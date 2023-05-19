@@ -185,6 +185,25 @@ ContentContainer_1.BackgroundTransparency = 1
 ContentContainer_1.Position = UDim2.new(1, -6,0, 36)
 ContentContainer_1.Size = UDim2.new(1, -133,1, -42)
 
+local TabSection = {}
+  
+  function TabSection:CreateTabSection(TabSectionName)
+  
+  local Home_1 = Instance.new("TextLabel") 
+ 
+  Home_1.Name = "Home" 
+ Home_1.Parent = ButtonHolder_1 
+ Home_1.Active = true 
+ Home_1.BackgroundColor3 = Color3.fromRGB(0,0,0) 
+ Home_1.BorderColor3 = Color3.fromRGB(0,0,0) 
+ Home_1.BorderSizePixel = 2 
+ Home_1.Size = UDim2.new(1, 0,0, 20) 
+ Home_1.Font = Enum.Font.Ubuntu 
+ Home_1.Text = TabSectionName 
+ Home_1.TextColor3 = Color3.fromRGB(255,0,4) 
+ Home_1.TextSize = 12
+ Home_1.TextXAlignment = Enum.TextXAlignment.Center
+  
 	-- TabsTable
 	local Tabs = {}
 	
@@ -587,5 +606,7 @@ TextBox_2.FocusLost:Connect(function(enterpressed)
 		return Sections
 	end
 	return Tabs
+end
+return TabSection
 end
 return Library
